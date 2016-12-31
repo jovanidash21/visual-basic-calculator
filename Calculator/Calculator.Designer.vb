@@ -96,7 +96,7 @@ Partial Class Calculator
         Me.ButtonEqual.Location = New System.Drawing.Point(268, 291)
         Me.ButtonEqual.Name = "ButtonEqual"
         Me.ButtonEqual.Size = New System.Drawing.Size(85, 120)
-        Me.ButtonEqual.TabIndex = 17
+        Me.ButtonEqual.TabIndex = 18
         Me.ButtonEqual.Text = "="
         Me.ButtonEqual.UseVisualStyleBackColor = False
         '
@@ -111,7 +111,7 @@ Partial Class Calculator
         Me.ButtonMultiply.Location = New System.Drawing.Point(181, 102)
         Me.ButtonMultiply.Name = "ButtonMultiply"
         Me.ButtonMultiply.Size = New System.Drawing.Size(85, 57)
-        Me.ButtonMultiply.TabIndex = 18
+        Me.ButtonMultiply.TabIndex = 3
         Me.ButtonMultiply.Text = "x"
         Me.ButtonMultiply.UseVisualStyleBackColor = False
         '
@@ -126,7 +126,7 @@ Partial Class Calculator
         Me.ButtonDelete.Location = New System.Drawing.Point(268, 102)
         Me.ButtonDelete.Name = "ButtonDelete"
         Me.ButtonDelete.Size = New System.Drawing.Size(85, 57)
-        Me.ButtonDelete.TabIndex = 19
+        Me.ButtonDelete.TabIndex = 4
         Me.ButtonDelete.Text = "<"
         Me.ButtonDelete.UseVisualStyleBackColor = False
         '
@@ -141,7 +141,7 @@ Partial Class Calculator
         Me.Button7.Location = New System.Drawing.Point(5, 165)
         Me.Button7.Name = "Button7"
         Me.Button7.Size = New System.Drawing.Size(85, 57)
-        Me.Button7.TabIndex = 20
+        Me.Button7.TabIndex = 5
         Me.Button7.Text = "7"
         Me.Button7.UseVisualStyleBackColor = False
         '
@@ -156,7 +156,7 @@ Partial Class Calculator
         Me.Button8.Location = New System.Drawing.Point(93, 165)
         Me.Button8.Name = "Button8"
         Me.Button8.Size = New System.Drawing.Size(85, 57)
-        Me.Button8.TabIndex = 21
+        Me.Button8.TabIndex = 6
         Me.Button8.Text = "8"
         Me.Button8.UseVisualStyleBackColor = False
         '
@@ -171,7 +171,7 @@ Partial Class Calculator
         Me.Button9.Location = New System.Drawing.Point(181, 165)
         Me.Button9.Name = "Button9"
         Me.Button9.Size = New System.Drawing.Size(85, 57)
-        Me.Button9.TabIndex = 22
+        Me.Button9.TabIndex = 7
         Me.Button9.Text = "9"
         Me.Button9.UseVisualStyleBackColor = False
         '
@@ -186,7 +186,7 @@ Partial Class Calculator
         Me.ButtonMinus.Location = New System.Drawing.Point(268, 165)
         Me.ButtonMinus.Name = "ButtonMinus"
         Me.ButtonMinus.Size = New System.Drawing.Size(85, 57)
-        Me.ButtonMinus.TabIndex = 23
+        Me.ButtonMinus.TabIndex = 8
         Me.ButtonMinus.Text = "-"
         Me.ButtonMinus.UseVisualStyleBackColor = False
         '
@@ -201,7 +201,7 @@ Partial Class Calculator
         Me.Button4.Location = New System.Drawing.Point(5, 228)
         Me.Button4.Name = "Button4"
         Me.Button4.Size = New System.Drawing.Size(85, 57)
-        Me.Button4.TabIndex = 24
+        Me.Button4.TabIndex = 9
         Me.Button4.Text = "4"
         Me.Button4.UseVisualStyleBackColor = False
         '
@@ -216,7 +216,7 @@ Partial Class Calculator
         Me.Button5.Location = New System.Drawing.Point(93, 228)
         Me.Button5.Name = "Button5"
         Me.Button5.Size = New System.Drawing.Size(85, 57)
-        Me.Button5.TabIndex = 25
+        Me.Button5.TabIndex = 10
         Me.Button5.Text = "5"
         Me.Button5.UseVisualStyleBackColor = False
         '
@@ -231,7 +231,7 @@ Partial Class Calculator
         Me.Button6.Location = New System.Drawing.Point(181, 228)
         Me.Button6.Name = "Button6"
         Me.Button6.Size = New System.Drawing.Size(85, 57)
-        Me.Button6.TabIndex = 26
+        Me.Button6.TabIndex = 11
         Me.Button6.Text = "6"
         Me.Button6.UseVisualStyleBackColor = False
         '
@@ -246,7 +246,7 @@ Partial Class Calculator
         Me.ButtonPlus.Location = New System.Drawing.Point(268, 228)
         Me.ButtonPlus.Name = "ButtonPlus"
         Me.ButtonPlus.Size = New System.Drawing.Size(85, 57)
-        Me.ButtonPlus.TabIndex = 27
+        Me.ButtonPlus.TabIndex = 12
         Me.ButtonPlus.Text = "+"
         Me.ButtonPlus.UseVisualStyleBackColor = False
         '
@@ -261,7 +261,7 @@ Partial Class Calculator
         Me.Button1.Location = New System.Drawing.Point(5, 291)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(85, 57)
-        Me.Button1.TabIndex = 28
+        Me.Button1.TabIndex = 13
         Me.Button1.Text = "1"
         Me.Button1.UseVisualStyleBackColor = False
         '
@@ -276,7 +276,7 @@ Partial Class Calculator
         Me.Button2.Location = New System.Drawing.Point(93, 291)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(85, 57)
-        Me.Button2.TabIndex = 29
+        Me.Button2.TabIndex = 14
         Me.Button2.Text = "2"
         Me.Button2.UseVisualStyleBackColor = False
         '
@@ -291,7 +291,7 @@ Partial Class Calculator
         Me.Button3.Location = New System.Drawing.Point(181, 291)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(85, 57)
-        Me.Button3.TabIndex = 30
+        Me.Button3.TabIndex = 15
         Me.Button3.Text = "3"
         Me.Button3.UseVisualStyleBackColor = False
         '
@@ -306,7 +306,7 @@ Partial Class Calculator
         Me.Button0.Location = New System.Drawing.Point(5, 354)
         Me.Button0.Name = "Button0"
         Me.Button0.Size = New System.Drawing.Size(173, 57)
-        Me.Button0.TabIndex = 31
+        Me.Button0.TabIndex = 16
         Me.Button0.Text = "0"
         Me.Button0.UseVisualStyleBackColor = False
         '
@@ -321,7 +321,7 @@ Partial Class Calculator
         Me.ButtonPoint.Location = New System.Drawing.Point(181, 354)
         Me.ButtonPoint.Name = "ButtonPoint"
         Me.ButtonPoint.Size = New System.Drawing.Size(85, 57)
-        Me.ButtonPoint.TabIndex = 33
+        Me.ButtonPoint.TabIndex = 17
         Me.ButtonPoint.Text = "."
         Me.ButtonPoint.UseVisualStyleBackColor = False
         '
@@ -330,7 +330,7 @@ Partial Class Calculator
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(21, Byte), Integer), CType(CType(21, Byte), Integer), CType(CType(21, Byte), Integer))
-        Me.ClientSize = New System.Drawing.Size(359, 423)
+        Me.ClientSize = New System.Drawing.Size(357, 416)
         Me.Controls.Add(Me.ButtonPoint)
         Me.Controls.Add(Me.Button0)
         Me.Controls.Add(Me.Button3)
