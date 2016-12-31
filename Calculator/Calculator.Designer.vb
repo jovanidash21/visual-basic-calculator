@@ -82,7 +82,7 @@ Partial Class Calculator
         Me.ButtonDivide.Name = "ButtonDivide"
         Me.ButtonDivide.Size = New System.Drawing.Size(85, 57)
         Me.ButtonDivide.TabIndex = 2
-        Me.ButtonDivide.Text = "/"
+        Me.ButtonDivide.Text = "÷"
         Me.ButtonDivide.UseVisualStyleBackColor = False
         '
         'ButtonEqual
@@ -112,7 +112,7 @@ Partial Class Calculator
         Me.ButtonMultiply.Name = "ButtonMultiply"
         Me.ButtonMultiply.Size = New System.Drawing.Size(85, 57)
         Me.ButtonMultiply.TabIndex = 3
-        Me.ButtonMultiply.Text = "x"
+        Me.ButtonMultiply.Text = "×"
         Me.ButtonMultiply.UseVisualStyleBackColor = False
         '
         'ButtonDelete
@@ -127,7 +127,7 @@ Partial Class Calculator
         Me.ButtonDelete.Name = "ButtonDelete"
         Me.ButtonDelete.Size = New System.Drawing.Size(85, 57)
         Me.ButtonDelete.TabIndex = 4
-        Me.ButtonDelete.Text = "<"
+        Me.ButtonDelete.Text = "←"
         Me.ButtonDelete.UseVisualStyleBackColor = False
         '
         'Button7
@@ -187,7 +187,7 @@ Partial Class Calculator
         Me.ButtonMinus.Name = "ButtonMinus"
         Me.ButtonMinus.Size = New System.Drawing.Size(85, 57)
         Me.ButtonMinus.TabIndex = 8
-        Me.ButtonMinus.Text = "-"
+        Me.ButtonMinus.Text = "−"
         Me.ButtonMinus.UseVisualStyleBackColor = False
         '
         'Button4
