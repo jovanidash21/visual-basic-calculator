@@ -48,23 +48,22 @@ Partial Class Calculator
         Me.CalculatorMainTextBox.BackColor = System.Drawing.Color.Silver
         Me.CalculatorMainTextBox.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.CalculatorMainTextBox.Enabled = False
-        Me.CalculatorMainTextBox.Font = New System.Drawing.Font("Impact", 65.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.CalculatorMainTextBox.Font = New System.Drawing.Font("Agency FB", 54.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.CalculatorMainTextBox.Location = New System.Drawing.Point(5, 6)
         Me.CalculatorMainTextBox.Name = "CalculatorMainTextBox"
-        Me.CalculatorMainTextBox.Size = New System.Drawing.Size(343, 107)
+        Me.CalculatorMainTextBox.Size = New System.Drawing.Size(348, 87)
         Me.CalculatorMainTextBox.TabIndex = 0
-        Me.CalculatorMainTextBox.Text = "123"
         Me.CalculatorMainTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
         '
         'ButtonClear
         '
-        Me.ButtonClear.BackColor = System.Drawing.Color.DimGray
+        Me.ButtonClear.BackColor = System.Drawing.Color.FromArgb(CType(CType(50, Byte), Integer), CType(CType(50, Byte), Integer), CType(CType(50, Byte), Integer))
         Me.ButtonClear.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(184, Byte), Integer), CType(CType(38, Byte), Integer), CType(CType(10, Byte), Integer))
         Me.ButtonClear.FlatAppearance.BorderSize = 2
         Me.ButtonClear.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.ButtonClear.Font = New System.Drawing.Font("Impact", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonClear.ForeColor = System.Drawing.Color.White
-        Me.ButtonClear.Location = New System.Drawing.Point(5, 117)
+        Me.ButtonClear.Location = New System.Drawing.Point(5, 102)
         Me.ButtonClear.Name = "ButtonClear"
         Me.ButtonClear.Size = New System.Drawing.Size(85, 57)
         Me.ButtonClear.TabIndex = 1
@@ -73,13 +72,13 @@ Partial Class Calculator
         '
         'ButtonDivide
         '
-        Me.ButtonDivide.BackColor = System.Drawing.Color.DimGray
+        Me.ButtonDivide.BackColor = System.Drawing.Color.FromArgb(CType(CType(50, Byte), Integer), CType(CType(50, Byte), Integer), CType(CType(50, Byte), Integer))
         Me.ButtonDivide.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(184, Byte), Integer), CType(CType(38, Byte), Integer), CType(CType(10, Byte), Integer))
         Me.ButtonDivide.FlatAppearance.BorderSize = 2
         Me.ButtonDivide.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.ButtonDivide.Font = New System.Drawing.Font("Impact", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonDivide.ForeColor = System.Drawing.Color.White
-        Me.ButtonDivide.Location = New System.Drawing.Point(91, 117)
+        Me.ButtonDivide.Location = New System.Drawing.Point(93, 102)
         Me.ButtonDivide.Name = "ButtonDivide"
         Me.ButtonDivide.Size = New System.Drawing.Size(85, 57)
         Me.ButtonDivide.TabIndex = 2
@@ -94,22 +93,22 @@ Partial Class Calculator
         Me.ButtonEqual.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.ButtonEqual.Font = New System.Drawing.Font("Impact", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonEqual.ForeColor = System.Drawing.Color.White
-        Me.ButtonEqual.Location = New System.Drawing.Point(263, 292)
+        Me.ButtonEqual.Location = New System.Drawing.Point(268, 291)
         Me.ButtonEqual.Name = "ButtonEqual"
-        Me.ButtonEqual.Size = New System.Drawing.Size(85, 116)
+        Me.ButtonEqual.Size = New System.Drawing.Size(85, 120)
         Me.ButtonEqual.TabIndex = 17
         Me.ButtonEqual.Text = "="
         Me.ButtonEqual.UseVisualStyleBackColor = False
         '
         'ButtonMultiply
         '
-        Me.ButtonMultiply.BackColor = System.Drawing.Color.DimGray
+        Me.ButtonMultiply.BackColor = System.Drawing.Color.FromArgb(CType(CType(50, Byte), Integer), CType(CType(50, Byte), Integer), CType(CType(50, Byte), Integer))
         Me.ButtonMultiply.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(184, Byte), Integer), CType(CType(38, Byte), Integer), CType(CType(10, Byte), Integer))
         Me.ButtonMultiply.FlatAppearance.BorderSize = 2
         Me.ButtonMultiply.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.ButtonMultiply.Font = New System.Drawing.Font("Impact", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonMultiply.ForeColor = System.Drawing.Color.White
-        Me.ButtonMultiply.Location = New System.Drawing.Point(177, 117)
+        Me.ButtonMultiply.Location = New System.Drawing.Point(181, 102)
         Me.ButtonMultiply.Name = "ButtonMultiply"
         Me.ButtonMultiply.Size = New System.Drawing.Size(85, 57)
         Me.ButtonMultiply.TabIndex = 18
@@ -118,13 +117,13 @@ Partial Class Calculator
         '
         'ButtonDelete
         '
-        Me.ButtonDelete.BackColor = System.Drawing.Color.DimGray
+        Me.ButtonDelete.BackColor = System.Drawing.Color.FromArgb(CType(CType(50, Byte), Integer), CType(CType(50, Byte), Integer), CType(CType(50, Byte), Integer))
         Me.ButtonDelete.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(184, Byte), Integer), CType(CType(38, Byte), Integer), CType(CType(10, Byte), Integer))
         Me.ButtonDelete.FlatAppearance.BorderSize = 2
         Me.ButtonDelete.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.ButtonDelete.Font = New System.Drawing.Font("Impact", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonDelete.ForeColor = System.Drawing.Color.White
-        Me.ButtonDelete.Location = New System.Drawing.Point(263, 117)
+        Me.ButtonDelete.Location = New System.Drawing.Point(268, 102)
         Me.ButtonDelete.Name = "ButtonDelete"
         Me.ButtonDelete.Size = New System.Drawing.Size(85, 57)
         Me.ButtonDelete.TabIndex = 19
@@ -139,7 +138,7 @@ Partial Class Calculator
         Me.Button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button7.Font = New System.Drawing.Font("Impact", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button7.ForeColor = System.Drawing.Color.White
-        Me.Button7.Location = New System.Drawing.Point(5, 175)
+        Me.Button7.Location = New System.Drawing.Point(5, 165)
         Me.Button7.Name = "Button7"
         Me.Button7.Size = New System.Drawing.Size(85, 57)
         Me.Button7.TabIndex = 20
@@ -154,7 +153,7 @@ Partial Class Calculator
         Me.Button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button8.Font = New System.Drawing.Font("Impact", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button8.ForeColor = System.Drawing.Color.White
-        Me.Button8.Location = New System.Drawing.Point(91, 175)
+        Me.Button8.Location = New System.Drawing.Point(93, 165)
         Me.Button8.Name = "Button8"
         Me.Button8.Size = New System.Drawing.Size(85, 57)
         Me.Button8.TabIndex = 21
@@ -169,7 +168,7 @@ Partial Class Calculator
         Me.Button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button9.Font = New System.Drawing.Font("Impact", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button9.ForeColor = System.Drawing.Color.White
-        Me.Button9.Location = New System.Drawing.Point(177, 175)
+        Me.Button9.Location = New System.Drawing.Point(181, 165)
         Me.Button9.Name = "Button9"
         Me.Button9.Size = New System.Drawing.Size(85, 57)
         Me.Button9.TabIndex = 22
@@ -178,13 +177,13 @@ Partial Class Calculator
         '
         'ButtonMinus
         '
-        Me.ButtonMinus.BackColor = System.Drawing.Color.DimGray
+        Me.ButtonMinus.BackColor = System.Drawing.Color.FromArgb(CType(CType(50, Byte), Integer), CType(CType(50, Byte), Integer), CType(CType(50, Byte), Integer))
         Me.ButtonMinus.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(184, Byte), Integer), CType(CType(38, Byte), Integer), CType(CType(10, Byte), Integer))
         Me.ButtonMinus.FlatAppearance.BorderSize = 2
         Me.ButtonMinus.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.ButtonMinus.Font = New System.Drawing.Font("Impact", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonMinus.ForeColor = System.Drawing.Color.White
-        Me.ButtonMinus.Location = New System.Drawing.Point(263, 175)
+        Me.ButtonMinus.Location = New System.Drawing.Point(268, 165)
         Me.ButtonMinus.Name = "ButtonMinus"
         Me.ButtonMinus.Size = New System.Drawing.Size(85, 57)
         Me.ButtonMinus.TabIndex = 23
@@ -199,7 +198,7 @@ Partial Class Calculator
         Me.Button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button4.Font = New System.Drawing.Font("Impact", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button4.ForeColor = System.Drawing.Color.White
-        Me.Button4.Location = New System.Drawing.Point(5, 233)
+        Me.Button4.Location = New System.Drawing.Point(5, 228)
         Me.Button4.Name = "Button4"
         Me.Button4.Size = New System.Drawing.Size(85, 57)
         Me.Button4.TabIndex = 24
@@ -214,7 +213,7 @@ Partial Class Calculator
         Me.Button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button5.Font = New System.Drawing.Font("Impact", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button5.ForeColor = System.Drawing.Color.White
-        Me.Button5.Location = New System.Drawing.Point(91, 233)
+        Me.Button5.Location = New System.Drawing.Point(93, 228)
         Me.Button5.Name = "Button5"
         Me.Button5.Size = New System.Drawing.Size(85, 57)
         Me.Button5.TabIndex = 25
@@ -229,7 +228,7 @@ Partial Class Calculator
         Me.Button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button6.Font = New System.Drawing.Font("Impact", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button6.ForeColor = System.Drawing.Color.White
-        Me.Button6.Location = New System.Drawing.Point(177, 233)
+        Me.Button6.Location = New System.Drawing.Point(181, 228)
         Me.Button6.Name = "Button6"
         Me.Button6.Size = New System.Drawing.Size(85, 57)
         Me.Button6.TabIndex = 26
@@ -238,13 +237,13 @@ Partial Class Calculator
         '
         'ButtonPlus
         '
-        Me.ButtonPlus.BackColor = System.Drawing.Color.DimGray
+        Me.ButtonPlus.BackColor = System.Drawing.Color.FromArgb(CType(CType(50, Byte), Integer), CType(CType(50, Byte), Integer), CType(CType(50, Byte), Integer))
         Me.ButtonPlus.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(184, Byte), Integer), CType(CType(38, Byte), Integer), CType(CType(10, Byte), Integer))
         Me.ButtonPlus.FlatAppearance.BorderSize = 2
         Me.ButtonPlus.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.ButtonPlus.Font = New System.Drawing.Font("Impact", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonPlus.ForeColor = System.Drawing.Color.White
-        Me.ButtonPlus.Location = New System.Drawing.Point(263, 233)
+        Me.ButtonPlus.Location = New System.Drawing.Point(268, 228)
         Me.ButtonPlus.Name = "ButtonPlus"
         Me.ButtonPlus.Size = New System.Drawing.Size(85, 57)
         Me.ButtonPlus.TabIndex = 27
@@ -259,7 +258,7 @@ Partial Class Calculator
         Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button1.Font = New System.Drawing.Font("Impact", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button1.ForeColor = System.Drawing.Color.White
-        Me.Button1.Location = New System.Drawing.Point(5, 292)
+        Me.Button1.Location = New System.Drawing.Point(5, 291)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(85, 57)
         Me.Button1.TabIndex = 28
@@ -274,7 +273,7 @@ Partial Class Calculator
         Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button2.Font = New System.Drawing.Font("Impact", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button2.ForeColor = System.Drawing.Color.White
-        Me.Button2.Location = New System.Drawing.Point(91, 292)
+        Me.Button2.Location = New System.Drawing.Point(93, 291)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(85, 57)
         Me.Button2.TabIndex = 29
@@ -289,7 +288,7 @@ Partial Class Calculator
         Me.Button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button3.Font = New System.Drawing.Font("Impact", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button3.ForeColor = System.Drawing.Color.White
-        Me.Button3.Location = New System.Drawing.Point(177, 292)
+        Me.Button3.Location = New System.Drawing.Point(181, 291)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(85, 57)
         Me.Button3.TabIndex = 30
@@ -304,9 +303,9 @@ Partial Class Calculator
         Me.Button0.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button0.Font = New System.Drawing.Font("Impact", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button0.ForeColor = System.Drawing.Color.White
-        Me.Button0.Location = New System.Drawing.Point(5, 351)
+        Me.Button0.Location = New System.Drawing.Point(5, 354)
         Me.Button0.Name = "Button0"
-        Me.Button0.Size = New System.Drawing.Size(171, 57)
+        Me.Button0.Size = New System.Drawing.Size(173, 57)
         Me.Button0.TabIndex = 31
         Me.Button0.Text = "0"
         Me.Button0.UseVisualStyleBackColor = False
@@ -319,7 +318,7 @@ Partial Class Calculator
         Me.ButtonPoint.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.ButtonPoint.Font = New System.Drawing.Font("Impact", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonPoint.ForeColor = System.Drawing.Color.White
-        Me.ButtonPoint.Location = New System.Drawing.Point(177, 351)
+        Me.ButtonPoint.Location = New System.Drawing.Point(181, 354)
         Me.ButtonPoint.Name = "ButtonPoint"
         Me.ButtonPoint.Size = New System.Drawing.Size(85, 57)
         Me.ButtonPoint.TabIndex = 33
@@ -330,8 +329,8 @@ Partial Class Calculator
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackColor = System.Drawing.Color.DarkSlateGray
-        Me.ClientSize = New System.Drawing.Size(353, 416)
+        Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(21, Byte), Integer), CType(CType(21, Byte), Integer), CType(CType(21, Byte), Integer))
+        Me.ClientSize = New System.Drawing.Size(359, 423)
         Me.Controls.Add(Me.ButtonPoint)
         Me.Controls.Add(Me.Button0)
         Me.Controls.Add(Me.Button3)
